@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 3rem;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 11px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 20px 0 hsl(227, 10%, 46%);
+}
+
+.card img {
+  border-radius: 11px 11px 0 0;
+}
+
+.profile img {
+  max-width: 8rem;
+  border-radius: 50%;
+  border: 4px solid hsl(0, 0%, 100%);
+  position: absolute;
+  left: 38%;
+  top: 30%;
+}
+
+.heading {
+  margin-top: 6rem;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 1rem;
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+
+.location {
+  color: hsl(0, 0%, 59%);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.fooder {
+  border-top: 1px solid hsla(0, 0%, 59%, 0.185);
+  display: flex;
+  padding: 2rem;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.head {
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(229, 23%, 23%);
+  /* margin-bottom: 1rem; */
+}
+
+.sub-head {
+  color: hsl(0, 0%, 59%);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
